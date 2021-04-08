@@ -7,6 +7,6 @@ RUN pip install --upgrade pip \
     && pip install --upgrade scikit-learn \
     && pip install tensorflow \
     && pip3 install torch torchvision \
-    && pip install --user -U nltk 
+    && pip install nltk 
 
 WORKDIR '/home/jovyan/work/code/'
